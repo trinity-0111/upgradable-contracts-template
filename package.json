@@ -5,10 +5,16 @@
   "repository": "git@github.com:trinity-0111/upgradable-contracts-template.git",
   "author": "trinity-0111 <fangtingliu@protonmail.com>",
   "license": "MIT",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.ts --network ropsten",
+    "upgrade": "npx hardhat run scripts/upgrade.ts --network ropsten",
+    "read": "npx hardhat run scripts/read.ts --network ropsten"
+  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
     "@nomiclabs/hardhat-etherscan": "^3.0.1",
     "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "@openzeppelin/contracts-upgradeable": "^4.5.1",
     "@openzeppelin/hardhat-upgrades": "^1.14.0",
     "@typechain/ethers-v5": "^7.2.0",
     "@typechain/hardhat": "^2.3.1",

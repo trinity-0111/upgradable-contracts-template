@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 
-contract Upgradable is Initializable {
+contract UpgradableV2 is Initializable {
     string private greeting;
 
     function initialize(string memory _greeting) public initializer {
@@ -15,6 +15,6 @@ contract Upgradable is Initializable {
     }
 
     function getVersion() public pure returns (uint256) {
-        return 1;
+        return 2;
     }
 }
