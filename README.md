@@ -10,6 +10,7 @@ Follow the below steps try out a complete process to deploy to Ropsten testnet, 
 * run `yarn install` install dependencies
 * run `npx hardhat test` make sure all tests pass
 * run `npm run deploy` to deploy proxyAdmin, proxy, and implementation, proxy address is your contract to read from.
+* Update `proxyAddress`'s value to the dewly deployed proxy address in `read.ts` file 
 * run `npm run read`, you will see data from the contract, including its version that should have value 1.
 * Update `proxyAddress`'s value to the dewly deployed proxy address in `upgrade.ts` file 
 * run `npm run upgrade` to upgrade contract `Upgradable` to `UpgradableV2`
