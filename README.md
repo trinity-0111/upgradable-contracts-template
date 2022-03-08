@@ -1,6 +1,6 @@
 # Upgradable Contracts Template
 
-> :warning: If you are attending University of British Columbia EECE 571G 202, please use wiki [here](https://github.com/trinity-0111/upgradable-contracts-template/wiki/University-of-British-Columbia---EECE-571G-202---Upgradable-Smart-Contract-Lecture-Demo)
+> :warning: If you are attending University of British Columbia EECE 571G 202, please use wiki [here](https://github.com/trinity-0111/upgradable-contracts-template/wiki/University-of-British-Columbia---EECE-571G-202---Upgradable-Smart-Contract-Lecture-Demo).
 
 
 This project provides Solidity Smart Contract templates and deployment script for upgradable contracts.
