@@ -6,7 +6,7 @@
 const { upgrades } = require("hardhat");
 
 async function upgrade() {
-  const proxyAddress = "0x5472513ac825B27ada9f4325a80ba89C76329939";
+  const proxyAddress = "";
 
   const UpgradableV2 = await ethers.getContractFactory("UpgradableV2");
   const upgradableV2 = await upgrades.upgradeProxy(proxyAddress, UpgradableV2);

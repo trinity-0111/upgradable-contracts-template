@@ -8,7 +8,10 @@
   "scripts": {
     "deploy": "npx hardhat run scripts/deploy.ts --network ropsten",
     "upgrade": "npx hardhat run scripts/upgrade.ts --network ropsten",
-    "read": "npx hardhat run scripts/read.ts --network ropsten"
+    "read": "npx hardhat run scripts/read.ts --network ropsten",
+    "deploy-localhost": "npx hardhat run scripts/deploy.ts --network localhost",
+    "upgrade-localhost": "npx hardhat run scripts/upgrade.ts --network localhost",
+    "read-localhost": "npx hardhat run scripts/read.ts --network localhost"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",

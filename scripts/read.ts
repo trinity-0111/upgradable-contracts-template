@@ -14,7 +14,7 @@ async function read() {
 
   // We get the contract to deploy
   const Upgradable = await ethers.getContractFactory("Upgradable");
-  const proxyAddress = "0x5472513ac825B27ada9f4325a80ba89C76329939";
+  const proxyAddress = "";
   const upgradable = Upgradable.attach(proxyAddress);
 
   console.log("Greet from Upgradable:", await upgradable.greet());
