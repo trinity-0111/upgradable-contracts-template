@@ -3,7 +3,7 @@
 > :warning: If you are attending University of British Columbia EECE 571G 202, please use wiki [here](https://github.com/trinity-0111/upgradable-contracts-template/wiki/University-of-British-Columbia---EECE-571G----Upgradable-Smart-Contract-Lecture-Demo).
 
 
-This project provides Solidity Smart Contract templates and deployment script for upgradable contracts.
+This project provides Solidity Smart Contract templates and deployment script for upgradable contracts. If you are interested in learning more about upgradable contracts and patterns, you can check out the lecture slides [here](https://docs.google.com/presentation/d/1im0mECbM7htTWNShluWg49k3VUwaP2dXfUms28fU-Mc).
 
 The project comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts. It also comes with a variety of other tools, preconfigured to work with the project code.
 
